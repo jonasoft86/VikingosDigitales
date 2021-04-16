@@ -157,7 +157,223 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+/* Header */
 
+.align-items-center {
+  align-items: center !important;
+}
+
+
+.banner-image-w3.text-lg-center {
+  position: absolute;
+  top: 57%;
+  left: 40%;
+
+
+  -webkit-animation: rock-boat 3s ease-in-out infinite;
+}
+
+/*
+.boat::after {
+-webkit-animation: steam 4s 2s infinite;
+}
+
+
+/*	Keyframes - WebKit only
+------------------------------------------ */
+
+@-webkit-keyframes rock-boat {
+50%  { -webkit-transform: rotate(-2deg) translateY(-3px); }
+}
+
+@-webkit-keyframes steam {
+40%,
+60%  { opacity: .8; }
+100% { -webkit-transform: translate(-5%, -25%) rotateZ(45deg); }
+}
+
+
+.w3l-banner h3 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.w3l-banner h4 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.w3l-banner p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.w3l-banner span.video-play-icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  font-size: 26px;
+  padding-left: 2px;
+  text-align: center;
+  line-height: 76px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  -webkit-animation: ripple 1s linear infinite;
+  animation: ripple 1s linear infinite;
+  color: var(--primary-color);
+  border: transparent;
+  background: #fff;
+}
+
+.w3l-banner span.video-play-icon:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+  background: var(--primary-color);
+  border: transparent;
+  color: #fff;
+}
+
+@media (max-width: 1366px) {
+  .banner-image-w3.text-lg-center {
+    left: 20%;
+    top: 57%;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+
+  .w3l-banner h3 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .w3l-banner h3 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .banner-image-w3 img {
+    max-width: 700px;
+    left: 20%;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .w3l-banner h3 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .w3l-banner p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .banner-image-w3 img {
+    max-width: 600px;
+    left: 20%;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-image-w3 img {
+    max-width: 500px;
+    left: 20%;
+    margin-top: 4em;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+
+
+@media (max-width:768px) {
+
+  .banner-image-w3.text-lg-center {
+    position: initial;
+    order: 2;
+  }
+
+  .banner-image-w3 img {
+    max-width: 480px;
+
+    margin-top: 620px;
+    margin-left: 10%;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .banner-image-w3 img {
+    max-width: 400px;
+    left: 20%;
+    margin-top: 620px;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  
+  }
+
+  .w3l-banner h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .w3l-banner p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 440px) {
+  .banner-image-w3 img {
+    max-width: 350px;
+    margin-top: 620px;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner-image-w3 img {
+    max-width: 320px;
+    margin-top: 620px;
+
+    bottom: 50%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 384px) {}
+
+@media (min-width: 992px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
 
 /* About */
 
@@ -303,23 +519,7 @@ a:hover {
   z-index: 10;
   background: inherit;
 }
-.bussinesscard .front .top .logo {
-  display: inline-block;
-  background: #ccbea3;
-  color: #fff;
-  z-index: 11;
-  padding: .16em;
-  border: 8px solid #000000;
-  position: relative;
-  pointer-events: none;
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  left: 20%;
-  margin-top: .4em;
-  font-size: 4em;
-}
+
 .bussinesscard .front .top .logo .fat {
   font-weight: 800;
 }
@@ -455,19 +655,6 @@ a:focus {
     padding: 100px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Selection and other generic styles
 /* ---------------------------------------------- */
 ::-moz-selection {
@@ -510,8 +697,7 @@ img::-moz-selection {
 -------------------------------------------------------------- */
 header {
   width: 100%;
-  height: 150px;
-  overflow: hidden;
+  height: 100px;
   position: fixed;
   top: 0;
   left: 0;
@@ -592,7 +778,7 @@ header {
 /*------*/
 .buttonburger_container {
   position: fixed;
-  top: 5%;
+  top: 3%;
   right: 2%;
   height: 27px;
   width: 35px;
@@ -1380,14 +1566,14 @@ font-weight:700;
 .overlay_menu nav {
 
   height: 30%;
-  top: 30%;
+  top: 10%;
   font-size: 20px;
   font-weight: 10px;
 }
 
   header div#logo img{
     width: 180px;
-    height: 100px;
+    height: 130px;
 
   }
 

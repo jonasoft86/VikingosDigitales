@@ -62,31 +62,33 @@
 
 <body>
 
-<header>
-    <div class="container clearfix">
-        <div id="logo">
-            <img src="img/logovikings2.png" >
+    <header>
+        <div class="container clearfix">
+            <div id="logo">
+                <img src="img/logovikings2.png" >
+            </div>
+    
+            <div class="buttonburger_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+            <div class="overlay_menu" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#about">Somos Vikingos!</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#conquistas">Nuestras Conquistas</a></li>
+                        <li><a href="#contacto">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+    
         </div>
-
-        <div class="buttonburger_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
-        <div class="overlay_menu" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#about">Somos Vikingos!</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#conquistas">Nuestras Conquistas</a></li>
-                    <li><a href="#contacto">Contáctanos</a></li>
-                </ul>
-            </nav>
-        </div>
+    </header><!-- /header -->
 
 
-    </div>
-</header><!-- /header -->
+    <section id="inicio" class="header" >
 
 
-<section id="inicio" class="header">
         <div class="sky">
             <div class="containeranimated container__stars">
                 <div class="star"></div>
@@ -139,18 +141,12 @@
                 <div class="star"></div>
                 <div class="star"></div>
                 <div class="star"></div>
+                
             </div>
-        <div class="containeranimated container__moon">
-            <div class="moon"></div>
+            <div class="containeranimated container__moon">
+                <div class="moon"></div>
+            </div>
         </div>
- 
-        <div class="containeranimated">
-           
-        </div>
-                <div class="boat">
-                    <img src="img/boat.png" alt="tugboat" >
-                </div>
-  </div>
 
         
         <div class="sea">
@@ -241,35 +237,6 @@
                 <div class="sparkle"></div>
             </div>
         </div>
-        <div class="wave">
-            <div class="containeranimated container__sparkles">
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-                <div class="sparkle"></div>
-            </div>
-        </div>
 
         <div class="wave">
             <div class="containeranimated container__sparkles">
@@ -300,32 +267,68 @@
                 <div class="sparkle"></div>
             </div>
         </div>
-  </section>
+
+        <div class="wave">
+            <div class="containeranimated container__sparkles">
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+                <div class="sparkle"></div>
+            </div>
+        </div>
+
+        <div class="row align-items-center py-lg-5 py-md-5 mt-4">
+            <div class="banner-image-w3 text-lg-center">
+                <img src="img/boat.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
 
 
-            <!-- About Section -->
-            <section id="about" class="about content-section alt-bg-light wow fadeInUp" data-wow-offset="10">
-                <div class="container">
-                    <div class="row">
+    <!-- About Section -->
+    <section id="about" class="about content-section alt-bg-light wow fadeInUp" data-wow-offset="10">
+        <div class="container">
+            <div class="row">
 
-                        <div class="col-lg-12 text-center">
-                            <img src="img/bigviking.png" class="img_section_head">
-                            <h2>SOMOS VIKINGOS!</h2>
-                            <p class="lead" >Somos vikingos digitales un grupo apasionado de desarrolladores que va siempre en busqueda
-                                de nuevas conquistas y desafios hacia nuevos clientes, navegamos hacia lo desconocido encontrando las mejores herramientas,
-                                mostramos lo mejor de nuestras batallas ganadas,
-                                simplificamos tus ideas y las concretamos con nuestro toque de creatividad.
-                            </p>
+                <div class="col-lg-12 text-center">
+                    <img src="img/bigviking.png" class="img_section_head">
+                    <h2>SOMOS VIKINGOS!</h2>
+                    <p class="lead" >Somos vikingos digitales un grupo apasionado de desarrolladores que va siempre en busqueda
+                        de nuevas conquistas y desafios hacia nuevos clientes, navegamos hacia lo desconocido encontrando las mejores herramientas,
+                        mostramos lo mejor de nuestras batallas ganadas,
+                        simplificamos tus ideas y las concretamos con nuestro toque de creatividad.
+                    </p>
 
 
-                            <div class=" wow slideInLeft" data-wow-offset="10">
-                                <img src="img/Viking-ship-400px.png"  >
-                            </div><!-- /.col-md-6 -->
-                            
-                        </div>
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </section><!-- /.section -->
+                    <div class=" wow slideInLeft" data-wow-offset="10">
+                        <img src="img/Viking-ship-400px.png"  >
+                    </div><!-- /.col-md-6 -->
+                    
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.section -->
 
 
 
@@ -596,10 +599,10 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-12 segment">
-                            <a href="#" title="Hallooou - HTML5 Template">
+                            <a href="#">
                                 <h2>
                                     <!-- replace with your brand logo/text -->
-                                    <img src="img/logovikings.png" onerror="this.src='assets/images/logo.png'; this.onerror=null;" alt="Hallooou - HTML5 Template" title="Hallooou - HTML5 Template" class="img-responsive">
+                                    <img src="img/logovikings.png" onerror="this.src='assets/images/logo.png'; this.onerror=null;"  class="img-responsive">
                                 </h2>
                             </a>
                             <h4>Diseños simples, creativos y flexibles.</h4>
