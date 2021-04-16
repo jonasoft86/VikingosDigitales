@@ -10,10 +10,6 @@ body {
     src: url(VIKING-N.TTF);
 }
 
-body {
-   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-   /*font-family:'Viking-Normal';*/
-}
 
 .text-vertical-center {
     display: table-cell;
@@ -321,7 +317,7 @@ hr.small {
   .banner-image-w3 img {
     max-width: 400px;
     left: 20%;
-    margin-top: 620px;
+    margin-top: 500px;
 
     bottom: 50%;
     padding-bottom: 30%;
@@ -342,7 +338,7 @@ hr.small {
 @media (max-width: 440px) {
   .banner-image-w3 img {
     max-width: 350px;
-    margin-top: 620px;
+    margin-top: 500px;
 
     bottom: 50%;
     padding-bottom: 30%;
@@ -352,7 +348,7 @@ hr.small {
 @media (max-width: 400px) {
   .banner-image-w3 img {
     max-width: 320px;
-    margin-top: 620px;
+    margin-top: 500px;
 
     bottom: 50%;
     padding-bottom: 30%;
